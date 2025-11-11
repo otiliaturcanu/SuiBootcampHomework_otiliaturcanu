@@ -31,13 +31,13 @@ sui client publish
 
 #### 3 create counter
 
-```
+
 sui client ptb --gas-budget 20000000   --move-call 0xb86b8195b0ac8d4975892b2c10f923ed06af9077f4ac2a1ba5c4b27114f430fa::counter::create_counter
 ![1.6](readme_assets/l6.png)
 ![1.7](readme_assets/l7.png)
 ![1.8](readme_assets/l8.png)
 
-```
+
 #### 4 increment counter: new-value = 1 so the counter incremented with success from 0 to 1
 
 ```
